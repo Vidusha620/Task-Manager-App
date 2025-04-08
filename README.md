@@ -1,6 +1,4 @@
-Here's a personalized version of the `README.md` written in your style:
 
-```markdown
 # Task Manager Full-Stack Application
 
 This repo contains my Task Manager full-stack app. The frontend is built with Angular, and the backend is powered by Spring Boot. The app also integrates with a database for storing tasks.
@@ -17,7 +15,7 @@ This repo contains my Task Manager full-stack app. The frontend is built with An
    ```
 
 2. **Install dependencies:**
-   Make sure you have [Java 11+](https://openjdk.java.net/) and [Maven](https://maven.apache.org/) installed. To install the required dependencies, run:
+   Make sure you have Java 11+ and Maven installed. To install the required dependencies, run:
    ```bash
    mvn install
    ```
@@ -56,14 +54,13 @@ This repo contains my Task Manager full-stack app. The frontend is built with An
    ```
    The frontend will run on `http://localhost:4200`.
 
----
 
 ## Database Setup
 
 For this app, I’m using [MySQL](https://www.mysql.com/), but you can use any other relational database.
 
 1. **Create the database:**
-   First, you need to create a database. You can use a MySQL client (like [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)) or run the following SQL command:
+   First, you need to create a database. You can use a MySQL client MySQL Workbench or run the following SQL command:
    ```sql
    CREATE DATABASE task_manager;
    ```
